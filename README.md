@@ -240,20 +240,11 @@ The app is intentionally small, local-first, and user-level only.
 
 ---
 
-## 🤝 Contributing
+## 🤝 Contributions
 
-Contributions are welcome.
+ZyEntry is currently in early development.
 
-Good areas for contributions:
-
-- UI polish
-- Linux desktop compatibility
-- translations
-- packaging
-- AppImage support
-- bug fixes
-
-Please keep changes focused and avoid unnecessary complexity.
+Contributions may be accepted later, but for now the project is mainly maintained as a personal Linux desktop utility.
 
 ---
 
