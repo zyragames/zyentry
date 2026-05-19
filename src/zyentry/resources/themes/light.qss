@@ -1,0 +1,45 @@
+QMainWindow, QWidget#Central { background: #eaf4ff; color: #102033; font-family: Inter, "Noto Sans", Arial, sans-serif; }
+QScrollArea#StepsScroll, QWidget#StepsContainer { background: transparent; }
+QLabel { color: #111827; }
+QLabel[muted="true"] { color: #5b6472; }
+QDialog, QFrame#Header, QFrame#Footer, QFrame#StepCard { background: #ffffff; border: 1px solid #9cc9f5; border-radius: 12px; }
+QFrame#Logo { border: 2px solid #facc15; border-radius: 12px; background: #dbeafe; }
+QLabel#LogoText { color: #111827; font-size: 21px; font-weight: 800; }
+QLabel#Title { font-size: 29px; font-weight: 800; }
+QLabel#Subtitle { font-size: 14px; color: #1d4f86; }
+QLabel#StepTitle { font-size: 18px; font-weight: 800; }
+QLabel#StepDesc { font-size: 14px; color: #4b5563; }
+QLabel#Badge { border: 2px solid #facc15; border-radius: 23px; color: #102033; font-size: 22px; font-weight: 800; background: #dbeafe; }
+QLineEdit, QComboBox, QPlainTextEdit { background: #ffffff; border: 1px solid #8bbdeb; border-radius: 7px; color: #102033; padding: 9px 12px; selection-background-color: #fde047; selection-color: #102033; }
+QPlainTextEdit { font-family: "JetBrains Mono", "Noto Sans Mono", monospace; font-size: 13px; }
+QPushButton { background: #ffffff; border: 1px solid #8bbdeb; border-radius: 7px; color: #102033; padding: 9px 15px; font-weight: 700; }
+QPushButton:hover { border-color: #facc15; background: #eff8ff; }
+QPushButton:checked { border-color: #facc15; background: #dbeafe; }
+QComboBox#LanguageCombo { min-height: 34px; padding: 6px 8px; font-weight: 700; }
+QComboBox#LanguageCombo::drop-down { border: 0; width: 18px; }
+QComboBox#LanguageCombo QAbstractItemView { background: #ffffff; border: 1px solid #8bbdeb; color: #102033; selection-background-color: #fde047; selection-color: #102033; padding: 6px; }
+QPushButton#PrimaryButton, QPushButton#SecondaryButton { background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #0ea5e9, stop:1 #1d4ed8); border: 1px solid #facc15; color: white; padding: 14px 20px; font-size: 15px; min-height: 20px; }
+QPushButton#SecondaryButton { background: #dbeafe; border: 1px solid #facc15; color: #102033; }
+QPushButton#SecondaryButton:hover { background: #bfdbfe; border-color: #eab308; }
+QPushButton#PrimaryButton:disabled { background: #c7d8ea; border-color: #a8bfd7; color: #5d7188; }
+QPushButton#HelpButton { border-radius: 16px; min-width: 32px; max-width: 32px; min-height: 32px; max-height: 32px; padding: 0; font-size: 17px; }
+QPushButton#AboutButton { padding: 6px 10px; font-size: 12px; border-radius: 6px; }
+QCheckBox { color: #111827; spacing: 9px; }
+QCheckBox::indicator { width: 19px; height: 19px; border: 1px solid #1d4f86; border-radius: 3px; background: #ffffff; }
+QCheckBox::indicator:checked { background: #facc15; border-color: #eab308; }
+QCheckBox#ThemeSwitch { min-width: 58px; max-width: 58px; min-height: 30px; max-height: 30px; spacing: 0; }
+QCheckBox#ThemeSwitch::indicator { width: 58px; height: 30px; border-radius: 15px; border: 1px solid #8bbdeb; background: #dbeafe; }
+QCheckBox#ThemeSwitch::indicator:unchecked { image: none; background: #08203d; border-color: #1d4f86; }
+QCheckBox#ThemeSwitch::indicator:checked { image: none; background: #dbeafe; border-color: #facc15; }
+QCheckBox#ThemeSwitch::indicator:unchecked:hover { border-color: #facc15; }
+QCheckBox#ThemeSwitch::indicator:checked:hover { border-color: #eab308; }
+QLabel#ThemeIcon { color: #ca8a04; font-size: 16px; font-weight: 800; padding: 0; }
+QLabel#StatusText { color: #b45309; }
+QLabel#IconPreview { border: 1px dashed #1d4f86; border-radius: 8px; background: #eff8ff; color: #1d4f86; }
+QLabel#Pill { border: 1px solid #facc15; border-radius: 10px; padding: 6px 10px; color: #1d4f86; background: #eff8ff; }
+QPlainTextEdit#PreviewText { min-height: 360px; }
+QDialogButtonBox QPushButton { min-width: 96px; }
+QDialog#AboutDialog QLabel { line-height: 130%; }
+QScrollBar:vertical { background: transparent; width: 10px; margin: 4px 0; }
+QScrollBar::handle:vertical { background: #9cc9f5; border-radius: 5px; min-height: 40px; }
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0; }
